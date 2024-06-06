@@ -6,4 +6,5 @@ document.addEventListener('DOMContentLoaded', () =>{
         const trimmedValue = input.value.trim();
         output.textContent = trimmedValue ? trimmedValue : 'Anonymus';
     });
+    
 });
