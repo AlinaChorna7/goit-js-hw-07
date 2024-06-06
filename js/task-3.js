@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     const output = document.getElementById('name-output');
 
     input.addEventListener('input', () =>{
-        const trimmedValue = input.ariaValueMax.trim();
+        const trimmedValue = input.value.trim();
         output.textContent = trimmedValue ? trimmedValue : 'Anonymus';
     });
 });
